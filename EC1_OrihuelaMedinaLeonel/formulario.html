@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Formulario de Registro</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <img src="https://external-preview.redd.it/94z1jqplipIvrv50SRI_8ag7z76u2YiaB9Igef5e--Q.jpg?auto=webp&s=53afafe7c10062fde7fe7fc156cbdfd330f6709c" alt="Goku" />
+    <h2>Formulario de Registro</h2>
+    <form>
+      <input type="text" name="nombre" placeholder="Nombre" required />
+      <input type="text" name="apellido" placeholder="Apellido" required />
+      <input type="number" name="edad" placeholder="Edad" min="1" max="120" required />
+      <input type="email" name="correo" placeholder="Correo" required />
+      <input type="password" name="contrasena" placeholder="Contraseña" required />
+      <input type="tel" name="telefono" placeholder="N° teléfono" pattern="[0-9]{7,15}" title="Ingrese solo números, entre 7 y 15 dígitos" required />
+      <input type="text" name="direccion" placeholder="Dirección" required />
+      <input type="color" name="color_favorito" title="Elige tu color favorito" required />
+      <button type="submit">Enviar</button>
+    </form>
+  </div>
+</body>
+</html>         
